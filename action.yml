@@ -1,7 +1,7 @@
 name: 'Publish VS Code Extension'
 description: 'Publish your VSCode extension to the VS Marketplace (using vsce) or the Open VSX Registry (using ovsx) with ease.'
 
-author: HaaLeo
+author: rdwz
 branding:
   color: blue
   icon: package
@@ -64,5 +64,5 @@ outputs:
     description: The path to the packaged and published VSIX file.
 
 runs:
-  using: 'node16'
+  using: 'node20'
   main: 'dist/index.js'
